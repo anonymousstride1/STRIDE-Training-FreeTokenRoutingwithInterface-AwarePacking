@@ -1,0 +1,7 @@
+{
+  "source": "lmms-lab/textvqa",
+  "config": null,
+  "split": "validation",
+  "streaming": false,
+  "seed": 0
+}

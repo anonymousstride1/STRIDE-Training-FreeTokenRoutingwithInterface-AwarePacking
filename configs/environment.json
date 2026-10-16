@@ -1,0 +1,13 @@
+{
+  "python": "3.10.9",
+  "torch": "2.10.0+cu128",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "dtype": "bfloat16",
+  "quantization": "4bit nf4 double quantization",
+  "decoding": "greedy",
+  "seed": 0,
+  "max_new_tokens": 12,
+  "bootstrap_seed_base": 20261011,
+  "bootstrap_replicates": 2000
+}

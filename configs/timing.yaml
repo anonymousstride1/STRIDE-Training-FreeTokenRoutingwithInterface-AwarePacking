@@ -1,0 +1,5 @@
+jobs:
+  - {task: gqa, method: dense, budget: 576, samples: 100}
+  - {task: gqa, method: stride, budget: 64, samples: 100}
+  - {task: gqa, method: stride, budget: 128, samples: 100}
+  - {task: gqa, method: stride, budget: 192, samples: 100}

@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+venv/
+.venv/
+work/
+data_evaluation/
+runs/
+artifacts/
+wandb/
+checkpoints/
+*.log
+*.aux
+*.bbl
+*.blg
+*.brf
+*.out
+
+# Keep the manuscript local; publish code and reproducibility assets only.
+/paper/
+
+/paper/

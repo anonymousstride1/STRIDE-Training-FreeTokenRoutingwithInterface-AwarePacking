@@ -1,0 +1,12 @@
+models: [llava15-7b]
+benchmarks: [gqa, mmbench, mme, pope, scienceqa, textvqa]
+max_samples: 2000
+max_new_tokens: 12
+warmup_samples: 1
+load_in_4bit: true
+router_config: configs/router.yaml
+data_root: data_evaluation
+methods: [dense, vision_topk, divprune, vispruner, stride]
+budgets: [64, 128, 192]
+dense_budgets: {llava15-7b: 576}
+output_root: runs/main

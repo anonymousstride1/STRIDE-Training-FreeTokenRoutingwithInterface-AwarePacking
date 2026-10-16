@@ -1,0 +1,7 @@
+{
+  "source": "lmms-lab/MMBench_EN",
+  "config": "default",
+  "split": "dev",
+  "streaming": false,
+  "seed": 0
+}

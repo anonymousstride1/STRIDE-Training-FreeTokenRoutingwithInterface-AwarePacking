@@ -1,0 +1,7 @@
+{
+  "source": "lmms-lab/ScienceQA",
+  "config": "ScienceQA-IMG",
+  "split": "test",
+  "streaming": false,
+  "seed": 0
+}

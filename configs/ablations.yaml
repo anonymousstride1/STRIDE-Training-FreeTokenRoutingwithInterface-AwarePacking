@@ -1,0 +1,12 @@
+models: [llava15-7b]
+benchmarks: [gqa, mmbench, mme, pope, scienceqa, textvqa]
+max_samples: 2000
+max_new_tokens: 12
+warmup_samples: 1
+load_in_4bit: true
+router_config: configs/router.yaml
+data_root: data_evaluation
+budgets: [64]
+variants: [salience_only, selection_order, diversity_only, dense_positions]
+main_results_root: runs/main
+output_root: runs/ablations

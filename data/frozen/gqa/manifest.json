@@ -1,0 +1,8 @@
+{
+  "source": "lmms-lab/GQA",
+  "config": "testdev_balanced_instructions",
+  "image_config": "testdev_balanced_images",
+  "split": "testdev",
+  "streaming": false,
+  "seed": 0
+}

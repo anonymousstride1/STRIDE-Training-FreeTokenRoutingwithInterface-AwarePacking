@@ -1,0 +1,32 @@
+[
+  {
+    "budget": 64,
+    "comparator": "VisPruner",
+    "difference": 0.6199990028772362,
+    "ci95": [
+      -0.435867539558099,
+      1.6411732356920705
+    ],
+    "scope": "exploratory; observed comparator selection; not selection-adjusted"
+  },
+  {
+    "budget": 128,
+    "comparator": "Vision top-k control",
+    "difference": 0.2531845797511778,
+    "ci95": [
+      -0.5846311293586387,
+      1.1504766918799538
+    ],
+    "scope": "exploratory; observed comparator selection; not selection-adjusted"
+  },
+  {
+    "budget": 192,
+    "comparator": "Vision top-k control",
+    "difference": -0.31791428186049586,
+    "ci95": [
+      -1.0326506202129366,
+      0.38304362672792247
+    ],
+    "scope": "exploratory; observed comparator selection; not selection-adjusted"
+  }
+]

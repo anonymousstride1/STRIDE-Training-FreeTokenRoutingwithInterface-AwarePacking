@@ -1,0 +1,4 @@
+jobs:
+  - {task: gqa, method: stride, budget: 64, samples: 2000}
+  - {task: mme, method: stride, budget: 64, samples: 2000}
+  - {task: textvqa, method: stride, budget: 64, samples: 2000}
